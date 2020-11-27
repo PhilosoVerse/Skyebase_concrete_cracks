@@ -29,13 +29,13 @@ And the detection of crack width and length and surface area.
 	
 ## Content
 - cracks.py -> loading in the data
-- train_CNN_model -> training the data with CNN model
-- contour -> drawing contour around cracks in images
-- contour_area -> saving surface areas of cracks in df
-- crack_pixel_counter -> saving surface areas of cracks in df
-- irl_object_contours -> detecting cracks irl with camera
-- object_detection_test -> training model to detect crack, draw boundingboxes around it
-- google_collab_train_darknet -> train darkent pretrained CNN with crack images, where i manually labeled the images with 'labelimg'
+- train_CNN_model.py -> training the data with CNN model
+- contour.py -> drawing contour around cracks in images
+- contour_area.py -> saving surface areas of cracks in df
+- crack_pixel_counter.py -> saving surface areas of cracks in df
+- irl_object_contours.py -> detecting cracks irl with camera
+- object_detection_test.py -> training model to detect crack, draw boundingboxes around it
+- google_collab_train_darknet.py -> train darkent pretrained CNN with crack images, where i manually labeled the images with 'labelimg'
 
 
 
